@@ -25,8 +25,8 @@ import torchvision.transforms.functional as TF
 from google.colab import drive
 drive.mount('/content/drive')
 
-images_path = '/content/drive/MyDrive/seep_prediction/train_images_256/'
-mask_path = '/content/drive/MyDrive/seep_prediction/train_masks_256/'
+images_path = './seep_prediction/train_images_256/'
+mask_path = './seep_prediction/train_masks_256/'
 
 img_files = []
 msk_files = []
