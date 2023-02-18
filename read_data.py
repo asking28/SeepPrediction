@@ -22,8 +22,8 @@ import torch.optim as optim
 from torch.optim import lr_scheduler
 import torchvision.transforms.functional as TF
 
-from google.colab import drive
-drive.mount('/content/drive')
+# from google.colab import drive
+# drive.mount('/content/drive')
 
 images_path = './seep_prediction/train_images_256/'
 mask_path = './seep_prediction/train_masks_256/'
